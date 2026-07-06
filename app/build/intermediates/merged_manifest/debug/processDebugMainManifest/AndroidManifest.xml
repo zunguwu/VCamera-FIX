@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="virtual.camera.app"
+    android:versionCode="100"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="31" />
+    <!-- Android 11 需要 -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+
+    <!-- 高危权限 -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <!-- <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"/> -->
+
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+
+    <!-- mediaLocation -->
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <!-- 常用 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- bluetooth -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ" />
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+    <uses-permission android:name="android.permission.USE_SIP" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_INSTALL_SESSIONS" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.WRITE_CLIPS" />
+    <uses-permission android:name="android.permission.READ_CLIPS" />
+    <uses-permission android:name="android.permission.GET_CLIPS" />
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_WIMAX_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.CHANGE_WIMAX_STATE" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="com.open.gallery.smart.Read" />
+    <uses-permission android:name="com.open.gallery.smart.Write" />
+    <uses-permission android:name="com.open.gallery.smart.Provider" />
+    <uses-permission android:name="ohos.permission.GET_BUNDLE_INFO" />
+    <uses-permission android:name="ohos.permission.GET_BUNDLE_INFO_PRIVILEGED" />
+
+    <permission
+        android:name="virtual.camera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="virtual.camera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true" />
+
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <application
+        android:name="virtual.camera.app.app.App"
+        android:allowBackup="true"
+        android:allowNativeHeapPointerTagging="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:multiArch="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VCamera"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="virtual.camera.app.view.setting.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name="virtual.camera.app.view.gms.GmsManagerActivity"
+            android:exported="false" />
+        <activity
+            android:name="virtual.camera.app.view.main.WelcomeActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/WelcomeTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="virtual.camera.app.view.list.ListActivity"
+            android:exported="false" />
+        <activity
+            android:name="virtual.camera.app.view.main.MainActivity"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hack.assist.AssistActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:noHistory="true"
+            android:process="@string/assist_process"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <service
+            android:name="com.hack.agent.HackJobService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:process="@string/service_process" />
+
+        <provider
+            android:name="com.hack.agent.HackFileProvider"
+            android:authorities="virtual.camera.app:com.hack.agent.HackFileProvider"
+            android:enabled="true"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            android:process="@string/service_process" >
+        </provider>
+
+        <receiver
+            android:name="com.hack.agent.HackReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.trampo.intentSender" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.hack.agent.HackNotificationService"
+            android:exported="true"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+            android:process="@string/service_process" >
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.hack.agent.HackAppActivity$P"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+            android:hardwareAccelerated="true"
+            android:launchMode="standard"
+            android:multiprocess="true"
+            android:screenOrientation="portrait"
+            android:supportsPictureInPicture="true"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgent" >
+        </activity>
+        <activity
+            android:name="com.hack.agent.HackAppActivity$PT"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+            android:hardwareAccelerated="true"
+            android:launchMode="standard"
+            android:multiprocess="true"
+            android:screenOrientation="portrait"
+            android:supportsPictureInPicture="true"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" >
+        </activity>
+        <activity
+            android:name="com.hack.agent.HackAppActivity$L"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+            android:hardwareAccelerated="true"
+            android:launchMode="standard"
+            android:multiprocess="true"
+            android:screenOrientation="landscape"
+            android:supportsPictureInPicture="true"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgent" >
+        </activity>
+        <activity
+            android:name="com.hack.agent.HackAppActivity$LT"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+            android:hardwareAccelerated="true"
+            android:launchMode="standard"
+            android:multiprocess="true"
+            android:screenOrientation="landscape"
+            android:supportsPictureInPicture="true"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" >
+        </activity>
+        <activity
+            android:name="com.hack.agent.HackAppActivity$B"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+            android:hardwareAccelerated="true"
+            android:launchMode="standard"
+            android:multiprocess="true"
+            android:screenOrientation="behind"
+            android:supportsPictureInPicture="true"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgent" >
+        </activity>
+        <activity
+            android:name="com.hack.agent.HackAppActivity$BT"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+            android:hardwareAccelerated="true"
+            android:launchMode="standard"
+            android:multiprocess="true"
+            android:screenOrientation="behind"
+            android:supportsPictureInPicture="true"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" >
+        </activity>
+        <activity
+            android:name="com.hack.assist.AssistActivity$P0"
+            android:exported="true"
+            android:process=":agent.p0"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P0"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p0"
+            android:exported="true"
+            android:process=":agent.p0" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P1"
+            android:exported="true"
+            android:process=":agent.p1"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P1"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p1"
+            android:exported="true"
+            android:process=":agent.p1" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P2"
+            android:exported="true"
+            android:process=":agent.p2"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P2"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p2"
+            android:exported="true"
+            android:process=":agent.p2" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P3"
+            android:exported="true"
+            android:process=":agent.p3"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P3"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p3"
+            android:exported="true"
+            android:process=":agent.p3" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P4"
+            android:exported="true"
+            android:process=":agent.p4"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P4"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p4"
+            android:exported="true"
+            android:process=":agent.p4" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P5"
+            android:exported="true"
+            android:process=":agent.p5"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P5"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p5"
+            android:exported="true"
+            android:process=":agent.p5" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P6"
+            android:exported="true"
+            android:process=":agent.p6"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P6"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p6"
+            android:exported="true"
+            android:process=":agent.p6" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P7"
+            android:exported="true"
+            android:process=":agent.p7"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P7"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p7"
+            android:exported="true"
+            android:process=":agent.p7" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P8"
+            android:exported="true"
+            android:process=":agent.p8"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P8"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p8"
+            android:exported="true"
+            android:process=":agent.p8" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P9"
+            android:exported="true"
+            android:process=":agent.p9"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P9"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p9"
+            android:exported="true"
+            android:process=":agent.p9" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P10"
+            android:exported="true"
+            android:process=":agent.p10"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P10"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p10"
+            android:exported="true"
+            android:process=":agent.p10" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P11"
+            android:exported="true"
+            android:process=":agent.p11"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P11"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p11"
+            android:exported="true"
+            android:process=":agent.p11" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P12"
+            android:exported="true"
+            android:process=":agent.p12"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P12"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p12"
+            android:exported="true"
+            android:process=":agent.p12" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P13"
+            android:exported="true"
+            android:process=":agent.p13"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P13"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p13"
+            android:exported="true"
+            android:process=":agent.p13" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P14"
+            android:exported="true"
+            android:process=":agent.p14"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P14"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p14"
+            android:exported="true"
+            android:process=":agent.p14" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P15"
+            android:exported="true"
+            android:process=":agent.p15"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P15"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p15"
+            android:exported="true"
+            android:process=":agent.p15" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P16"
+            android:exported="true"
+            android:process=":agent.p16"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P16"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p16"
+            android:exported="true"
+            android:process=":agent.p16" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P17"
+            android:exported="true"
+            android:process=":agent.p17"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P17"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p17"
+            android:exported="true"
+            android:process=":agent.p17" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P18"
+            android:exported="true"
+            android:process=":agent.p18"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P18"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p18"
+            android:exported="true"
+            android:process=":agent.p18" >
+        </provider>
+
+        <activity
+            android:name="com.hack.assist.AssistActivity$P19"
+            android:exported="true"
+            android:process=":agent.p19"
+            android:screenOrientation="behind"
+            android:taskAffinity="virtual.camera.app.vt"
+            android:theme="@style/Theme.ActivityAgentT" />
+
+        <provider
+            android:name="com.hack.agent.HackAppProvider$P19"
+            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p19"
+            android:exported="true"
+            android:process=":agent.p19" >
+        </provider>
+        <provider
+            android:name="com.hack.server.core.HackServerProvider"
+            android:authorities="virtual.camera.app:com.hack.server.core.HackServerProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/service_process" >
+        </provider>
+        <provider
+            android:name="com.hack.assist.AssistProvider"
+            android:authorities="virtual.camera.app:com.hack.assist.AssistProvider"
+            android:enabled="true"
+            android:exported="true"
+            android:process="@string/service_process" >
+        </provider>
+        <provider
+            android:name="com.hack.server.core.TransactProvider"
+            android:authorities="virtual.camera.app:com.hack.server.core.TransactProvider"
+            android:exported="false" />
+
+        <service
+            android:name="com.hack.server.core.ForgroundService"
+            android:exported="false"
+            android:process="@string/service_process" />
+
+        <provider
+            android:name="com.lzf.easyfloat.EasyFloatInitializer"
+            android:authorities="virtual.camera.app.EasyFloatInitializer"
+            android:exported="false"
+            android:multiprocess="true" />
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="virtual.camera.app.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

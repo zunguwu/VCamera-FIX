@@ -25,6 +25,7 @@ import java.io.InputStream;
 
 import virtual.camera.app.R;
 import virtual.camera.app.app.App;
+import virtual.camera.app.net.ConnectionBlocker;
 import virtual.camera.app.settings.LogUtil;
 import virtual.camera.app.settings.MethodType;
 import virtual.camera.camera.MultiPreferences;
@@ -36,7 +37,7 @@ public class SettingFragment extends BaseFragment {
     private AppCompatButton mProtectMethodBtn, mSave;
     private AppCompatTextView mProtectMethodText, mTip, mAudioText;
     private AppCompatEditText mInput;
-    private SwitchCompat mAudioSwitch;
+    private SwitchCompat mAudioSwitch, mConnectionBlockerSwitch;
     private AppCompatButton mChoiseVideo;
     private PopupMenu mPopupMenu = null;
     private int mMethodType = 0;
@@ -70,6 +71,8 @@ public class SettingFragment extends BaseFragment {
         mInput = rootView.findViewById(R.id.protect_path);
         mAudioText = rootView.findViewById(R.id.protect_audio);
         mAudioSwitch = rootView.findViewById(R.id.protect_audio_switch);
+        mConnectionBlockerSwitch = rootView.findViewById(R.id.connection_blocker_switch);
+        mConnectionBlockerSwitch.setChecked(ConnectionBlocker.isEnabled(App.getContext()));
         mChoiseVideo = rootView.findViewById(R.id.protect_video_select);
         mChoiseVideo.setOnClickListener(v -> {
             openDocumentedResult.launch("video/*");
@@ -215,6 +218,7 @@ if (id == R.id.protect_method_disable_camera) {
 
     private void saveSettings() {
         AppUtil.killAllApps();
+        ConnectionBlocker.setEnabled(App.getContext(), mConnectionBlockerSwitch.isChecked());
         switch (mMethodType) {
             case MethodType.TYPE_DISABLE_CAMERA:
                 MultiPreferences.getInstance().setInt("method_type", mMethodType);

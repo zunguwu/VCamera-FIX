@@ -76,6 +76,8 @@
     <string name="protect_tip_local">Tips: This will replace the camera data with a local video.</string>
     <string name="protect_tip_network">Tips: This will replace the camera data with a network video.</string>
     <string name="protect_path_hint">Input video url</string>
+    <string name="connection_blocker_enable">Block network connections</string>
+    <string name="connection_blocker_summary">Stop protected apps from opening network connections.</string>
     <string name="save">Save</string>
     <string name="choise_video">Choose Local Video</string>
     <string name="killApps">Kill All Apps</string>

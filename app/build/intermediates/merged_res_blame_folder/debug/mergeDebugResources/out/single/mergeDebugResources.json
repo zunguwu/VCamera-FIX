@@ -1,0 +1,210 @@
+[
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\mipmap-ldpi_ic_launcher.jpg.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\mipmap-ldpi\\ic_launcher.jpg"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_fragment_apps.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\fragment_apps.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_item_viewpager.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\item_viewpager.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-xxhdpi_ic_location_change.png.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-xxhdpi\\ic_location_change.png"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-hdpi_ic_search.png.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-hdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\menu_menu_list.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\menu\\menu_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable_ic_empty.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable\\ic_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-xxhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-xxhdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\xml_setting.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\xml\\setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-xxhdpi_ic_add.png.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-xxhdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\menu_menu_search.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\menu\\menu_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-xhdpi_ic_add.png.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-xhdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_view_switch.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\view_switch.xml"
+    },
+    {
+        "merged": "virtual.camera.app-debug-44:/xml_setting.xml.flat",
+        "source": "virtual.camera.app-main-46:/xml/setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable_splash.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_base_empty.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\base_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-xhdpi_ic_search.png.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-xhdpi\\ic_search.png"
+    },
+    {
+        "merged": "virtual.camera.app-debug-44:/layout_activity_camera_settings.xml.flat",
+        "source": "virtual.camera.app-main-46:/layout/activity_camera_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\mipmap-xxhdpi_ic_launcher.jpg.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\mipmap-xxhdpi\\ic_launcher.jpg"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\menu_camera_menu.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\menu\\camera_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_view_toolbar.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\view_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_activity_gms.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_gms.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-anydpi_ic_search.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-anydpi\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_item_xp.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\item_xp.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-hdpi_ic_location_change.png.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-hdpi\\ic_location_change.png"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-anydpi_ic_location_change.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-anydpi\\ic_location_change.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_activity_camera_settings.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_camera_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-xhdpi_ic_location_change.png.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-xhdpi\\ic_location_change.png"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\mipmap-mdpi_ic_launcher.jpg.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\mipmap-mdpi\\ic_launcher.jpg"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_activity_list.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-mdpi_ic_search.png.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-mdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_item_fake.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\item_fake.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_view_float_rocker.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\view_float_rocker.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\mipmap-xhdpi_ic_launcher.jpg.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\mipmap-xhdpi\\ic_launcher.jpg"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_activity_setting.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_item_gms.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\item_gms.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\mipmap-hdpi_ic_launcher.jpg.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\mipmap-hdpi\\ic_launcher.jpg"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-anydpi_ic_add.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-anydpi\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_activity_xp.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_xp.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-mdpi_ic_add.png.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-mdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_item_package.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\item_package.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_item_app.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\item_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-hdpi_ic_add.png.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-hdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\layout_activity_osmdroid.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_osmdroid.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\menu_app_menu.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\menu\\app_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-debug-44:\\drawable-mdpi_ic_location_change.png.flat",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\drawable-mdpi\\ic_location_change.png"
+    }
+]

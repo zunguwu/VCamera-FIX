@@ -1,0 +1,1244 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="virtual.camera.app"
+4    android:versionCode="100"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="31" />
+10    <!-- Android 11 需要 -->
+11    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+11-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:6:5-77
+11-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:6:22-74
+12
+13    <!-- 高危权限 -->
+14    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+14-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:9:5-82
+14-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:9:22-79
+15    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+15-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:6:5-77
+15-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:6:22-74
+16    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+16-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:11:5-83
+16-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:11:22-80
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:12:5-81
+17-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:13:5-79
+18-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+19-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:14:5-85
+19-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:14:22-82
+20    <!-- <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"/> -->
+21
+22    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+22-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:17:5-74
+22-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:17:22-72
+23    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+23-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:18:5-75
+23-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:18:22-73
+24    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+24-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:19:5-74
+24-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:19:22-72
+25
+26    <!-- mediaLocation -->
+27    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+27-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:22:5-80
+27-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:22:22-77
+28    <!-- 常用 -->
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:24:5-67
+29-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:24:22-64
+30    <uses-permission android:name="android.permission.FLASHLIGHT" />
+30-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:25:5-69
+30-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:25:22-66
+31    <uses-permission android:name="android.permission.CAMERA" />
+31-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:26:5-65
+31-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:26:22-62
+32
+33    <uses-feature android:name="android.hardware.camera" />
+33-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:28:5-60
+33-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:28:19-57
+34
+35    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+35-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:31:5-89
+35-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:31:22-86
+36    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+36-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:32:5-79
+36-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:32:22-76
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:33:5-79
+37-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:33:22-76
+38    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+38-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:34:5-76
+38-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:34:22-73
+39    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+39-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:35:5-79
+39-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:35:22-76
+40    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+40-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:36:5-86
+40-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:36:22-83
+41    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+41-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:37:5-76
+41-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:37:22-73
+42    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+42-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:38:5-81
+42-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:38:22-78
+43    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+43-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:39:5-80
+43-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:39:22-77
+44    <uses-permission android:name="android.permission.BODY_SENSORS" />
+44-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:40:5-71
+44-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:40:22-68
+45    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+45-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:41:5-75
+45-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:41:22-72
+46    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+46-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:42:5-75
+46-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:42:22-72
+47    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+47-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:43:5-75
+47-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:43:22-73
+48    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+48-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:44:5-71
+48-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:44:22-68
+49    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+49-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:45:5-74
+49-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:45:22-71
+50    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+50-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:46:5-75
+50-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:46:22-72
+51    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+51-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:47:5-77
+51-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:47:22-74
+52    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+52-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:48:5-77
+52-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:48:22-74
+53    <uses-permission android:name="android.permission.GET_TASKS" />
+53-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:49:5-68
+53-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:49:22-65
+54    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+54-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:50:5-84
+54-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:50:22-81
+55    <uses-permission android:name="android.permission.REORDER_TASKS" />
+55-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:51:5-72
+55-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:51:22-69
+56    <uses-permission android:name="android.permission.PERSISTENT_ACTIVITY" />
+56-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:52:5-78
+56-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:52:22-75
+57    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+57-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:53:5-71
+57-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:53:22-68
+58    <!-- bluetooth -->
+59    <uses-permission android:name="android.permission.BLUETOOTH" />
+59-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:55:5-68
+59-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:55:22-65
+60    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+60-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:56:5-74
+60-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:56:22-71
+61    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+61-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:57:5-75
+61-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:57:22-73
+62    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+62-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:58:5-73
+62-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:58:22-70
+63    <uses-permission android:name="android.permission.NFC" />
+63-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:59:5-62
+63-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:59:22-59
+64    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+64-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:60:5-80
+64-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:60:22-77
+65    <uses-permission android:name="android.permission.VIBRATE" />
+65-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:61:5-66
+65-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:61:22-63
+66    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+66-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:62:5-74
+66-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:62:22-71
+67    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+67-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:63:5-93
+67-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:63:22-90
+68    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+68-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:64:5-94
+68-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:64:22-91
+69    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+69-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:65:5-75
+69-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:65:22-72
+70    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+70-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:66:5-78
+70-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:66:22-75
+71    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+71-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:67:5-77
+71-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:67:22-74
+72    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+72-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:68:5-74
+72-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:68:22-71
+73    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ" />
+73-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:69:5-80
+73-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:69:22-77
+74    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE" />
+74-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:70:5-81
+74-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:70:22-78
+75    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+75-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:71:5-73
+75-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:71:22-70
+76    <uses-permission android:name="android.permission.READ_CALENDAR" />
+76-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:72:5-72
+76-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:72:22-69
+77    <uses-permission android:name="android.permission.READ_CONTACTS" />
+77-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:73:5-72
+77-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:73:22-69
+78    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+78-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:74:5-73
+78-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:74:22-70
+79    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+79-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:75:5-75
+79-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:75:22-72
+80    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+80-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:76:5-72
+80-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:76:22-69
+81    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+81-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:77:5-78
+81-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:77:22-75
+82    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+82-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:78:5-70
+82-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:78:22-67
+83    <uses-permission android:name="android.permission.USE_SIP" />
+83-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:79:5-66
+83-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:79:22-63
+84    <uses-permission android:name="android.permission.WAKE_LOCK" />
+84-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:80:5-68
+84-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:80:22-65
+85    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+85-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:81:5-78
+85-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:81:22-75
+86    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+86-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:82:5-80
+86-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:82:22-77
+87    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+87-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:83:5-81
+87-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:83:22-78
+88    <uses-permission android:name="android.permission.READ_INSTALL_SESSIONS" />
+88-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:84:5-80
+88-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:84:22-77
+89    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+89-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:85:5-74
+89-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:85:22-71
+90    <uses-permission android:name="android.permission.WRITE_CLIPS" />
+90-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:86:5-70
+90-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:86:22-67
+91    <uses-permission android:name="android.permission.READ_CLIPS" />
+91-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:87:5-69
+91-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:87:22-66
+92    <uses-permission android:name="android.permission.GET_CLIPS" />
+92-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:88:5-68
+92-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:88:22-65
+93    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+93-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:89:5-75
+93-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:89:22-72
+94    <uses-permission android:name="android.permission.ACCESS_GPS" />
+94-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:90:5-69
+94-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:90:22-66
+95    <uses-permission android:name="android.permission.ACCESS_WIMAX_STATE" />
+95-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:91:5-77
+95-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:91:22-74
+96    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+96-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:92:5-82
+96-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:92:22-79
+97    <uses-permission android:name="android.permission.CHANGE_WIMAX_STATE" />
+97-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:93:5-77
+97-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:93:22-74
+98    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+98-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:94:5-88
+98-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:94:22-85
+99    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+99-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:95:5-82
+99-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:95:22-79
+100    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+100-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:96:5-79
+100-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:96:22-76
+101    <uses-permission android:name="android.permission.CALL_PHONE" />
+101-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:98:5-69
+101-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:98:22-66
+102    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+102-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:99:5-77
+102-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:99:22-74
+103    <uses-permission android:name="com.open.gallery.smart.Read" />
+103-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:101:5-66
+103-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:101:22-64
+104    <uses-permission android:name="com.open.gallery.smart.Write" />
+104-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:102:5-67
+104-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:102:22-65
+105    <uses-permission android:name="com.open.gallery.smart.Provider" />
+105-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:103:5-71
+105-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:103:22-68
+106    <uses-permission android:name="ohos.permission.GET_BUNDLE_INFO" />
+106-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:105:5-70
+106-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:105:22-68
+107    <uses-permission android:name="ohos.permission.GET_BUNDLE_INFO_PRIVILEGED" />
+107-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:106:5-81
+107-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:106:22-79
+108
+109    <permission
+109-->[androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+110        android:name="virtual.camera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+110-->[androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+111        android:protectionLevel="signature" />
+111-->[androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+112
+113    <uses-permission android:name="virtual.camera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+113-->[androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+113-->[androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+114
+115    <supports-screens
+115-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:11:5-14:40
+116        android:anyDensity="true"
+116-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:12:9-34
+117        android:largeScreens="true"
+117-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:13:9-36
+118        android:normalScreens="true" />
+118-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:14:9-37
+119
+120    <uses-feature
+120-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:16:5-18:36
+121        android:name="android.hardware.location.network"
+121-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:17:9-57
+122        android:required="false" />
+122-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:18:9-33
+123    <uses-feature
+123-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:19:5-21:36
+124        android:name="android.hardware.location.gps"
+124-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:20:9-53
+125        android:required="false" />
+125-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:21:9-33
+126    <uses-feature
+126-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:22:5-24:36
+127        android:name="android.hardware.telephony"
+127-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:23:9-50
+128        android:required="false" />
+128-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:24:9-33
+129    <uses-feature
+129-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:25:5-27:36
+130        android:name="android.hardware.wifi"
+130-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:26:9-45
+131        android:required="false" />
+131-->[org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:27:9-33
+132
+133    <application
+133-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:108:5-137:19
+134        android:name="virtual.camera.app.app.App"
+134-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:109:9-50
+135        android:allowBackup="true"
+135-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:110:9-35
+136        android:allowNativeHeapPointerTagging="false"
+136-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-54
+137        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+137-->[androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+138        android:debuggable="true"
+139        android:extractNativeLibs="false"
+140        android:hardwareAccelerated="true"
+140-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:9-43
+141        android:icon="@mipmap/ic_launcher"
+141-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:111:9-43
+142        android:label="@string/app_name"
+142-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:112:9-41
+143        android:largeHeap="true"
+143-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:9-33
+144        android:multiArch="true"
+144-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:9-33
+145        android:networkSecurityConfig="@xml/network_security_config"
+145-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:113:9-69
+146        android:supportsRtl="true"
+146-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:114:9-35
+147        android:theme="@style/Theme.VCamera"
+147-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:115:9-45
+148        android:usesCleartextTraffic="true" >
+148-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:9-44
+149        <activity
+149-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:117:9-108
+150            android:name="virtual.camera.app.view.setting.SettingActivity"
+150-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:117:19-81
+151            android:exported="false" />
+151-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:117:82-106
+152        <activity
+152-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:118:9-107
+153            android:name="virtual.camera.app.view.gms.GmsManagerActivity"
+153-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:118:19-80
+154            android:exported="false" />
+154-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:118:81-105
+155        <activity
+155-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:119:9-129:20
+156            android:name="virtual.camera.app.view.main.WelcomeActivity"
+156-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:120:13-72
+157            android:exported="true"
+157-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:122:13-36
+158            android:launchMode="singleTop"
+158-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:121:13-43
+159            android:theme="@style/WelcomeTheme" >
+159-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:123:13-48
+160            <intent-filter>
+160-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:124:13-128:29
+161                <action android:name="android.intent.action.MAIN" />
+161-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:125:17-69
+161-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:125:25-66
+162
+163                <category android:name="android.intent.category.LAUNCHER" />
+163-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:127:17-77
+163-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:127:27-74
+164            </intent-filter>
+165        </activity>
+166        <activity
+166-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:130:9-102
+167            android:name="virtual.camera.app.view.list.ListActivity"
+167-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:130:19-75
+168            android:exported="false" />
+168-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:130:76-100
+169        <activity
+169-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:132:9-136:20
+170            android:name="virtual.camera.app.view.main.MainActivity"
+170-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:132:19-75
+171            android:exported="false" >
+171-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:132:76-100
+172            <intent-filter>
+172-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:133:13-135:29
+173                <action android:name="android.intent.action.MAIN" />
+173-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:125:17-69
+173-->C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:125:25-66
+174            </intent-filter>
+175        </activity>
+176        <activity
+176-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:9-22:59
+177            android:name="com.hack.assist.AssistActivity"
+177-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:13-58
+178            android:excludeFromRecents="true"
+178-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:13-46
+179            android:exported="true"
+179-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:17:13-36
+180            android:noHistory="true"
+180-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:18:13-37
+181            android:process="@string/assist_process"
+181-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:13-53
+182            android:screenOrientation="behind"
+182-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-47
+183            android:taskAffinity="virtual.camera.app.vt"
+183-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-55
+184            android:theme="@style/Theme.ActivityAgentT" />
+184-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-56
+185
+186        <service
+186-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:9-28:57
+187            android:name="com.hack.agent.HackJobService"
+187-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:13-57
+188            android:exported="true"
+188-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:26:13-36
+189            android:permission="android.permission.BIND_JOB_SERVICE"
+189-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:27:13-69
+190            android:process="@string/service_process" />
+190-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-54
+191
+192        <provider
+192-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:9-37:20
+193            android:name="com.hack.agent.HackFileProvider"
+193-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:31:13-59
+194            android:authorities="virtual.camera.app:com.hack.agent.HackFileProvider"
+194-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:32:13-83
+195            android:enabled="true"
+195-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:33:13-35
+196            android:exported="false"
+196-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:34:13-37
+197            android:grantUriPermissions="true"
+197-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:35:13-47
+198            android:process="@string/service_process" >
+198-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:36:13-54
+199        </provider>
+200
+201        <receiver
+201-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:39:9-45:20
+202            android:name="com.hack.agent.HackReceiver"
+202-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:40:13-55
+203            android:exported="false" >
+203-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:41:13-37
+204            <intent-filter>
+204-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:42:13-44:29
+205                <action android:name="android.trampo.intentSender" />
+205-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:43:17-70
+205-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:43:25-67
+206            </intent-filter>
+207        </receiver>
+208
+209        <service
+209-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:47:9-55:19
+210            android:name="com.hack.agent.HackNotificationService"
+210-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:48:13-66
+211            android:exported="true"
+211-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:49:13-36
+212            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+212-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:50:13-87
+213            android:process="@string/service_process" >
+213-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:51:13-54
+214            <intent-filter>
+214-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:52:13-54:29
+215                <action android:name="android.service.notification.NotificationListenerService" />
+215-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:53:17-99
+215-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:53:25-96
+216            </intent-filter>
+217        </service>
+218
+219        <activity
+219-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:57:9-67:20
+220            android:name="com.hack.agent.HackAppActivity$P"
+220-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:58:13-60
+221            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+221-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:59:13-186
+222            android:hardwareAccelerated="true"
+222-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:60:13-47
+223            android:launchMode="standard"
+223-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:61:13-42
+224            android:multiprocess="true"
+224-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:62:13-40
+225            android:screenOrientation="portrait"
+225-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:63:13-49
+226            android:supportsPictureInPicture="true"
+226-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:64:13-52
+227            android:taskAffinity="virtual.camera.app.vt"
+227-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:65:13-55
+228            android:theme="@style/Theme.ActivityAgent" >
+228-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:66:13-55
+229        </activity>
+230        <activity
+230-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:68:9-78:20
+231            android:name="com.hack.agent.HackAppActivity$PT"
+231-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:69:13-61
+232            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+232-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:70:13-186
+233            android:hardwareAccelerated="true"
+233-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:71:13-47
+234            android:launchMode="standard"
+234-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:72:13-42
+235            android:multiprocess="true"
+235-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:73:13-40
+236            android:screenOrientation="portrait"
+236-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:74:13-49
+237            android:supportsPictureInPicture="true"
+237-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:75:13-52
+238            android:taskAffinity="virtual.camera.app.vt"
+238-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:76:13-55
+239            android:theme="@style/Theme.ActivityAgentT" >
+239-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:77:13-56
+240        </activity>
+241        <activity
+241-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:79:9-89:20
+242            android:name="com.hack.agent.HackAppActivity$L"
+242-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:80:13-60
+243            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+243-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:81:13-186
+244            android:hardwareAccelerated="true"
+244-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:82:13-47
+245            android:launchMode="standard"
+245-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:83:13-42
+246            android:multiprocess="true"
+246-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:84:13-40
+247            android:screenOrientation="landscape"
+247-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:85:13-50
+248            android:supportsPictureInPicture="true"
+248-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:86:13-52
+249            android:taskAffinity="virtual.camera.app.vt"
+249-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:87:13-55
+250            android:theme="@style/Theme.ActivityAgent" >
+250-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:88:13-55
+251        </activity>
+252        <activity
+252-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:90:9-100:20
+253            android:name="com.hack.agent.HackAppActivity$LT"
+253-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:91:13-61
+254            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+254-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:92:13-186
+255            android:hardwareAccelerated="true"
+255-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:93:13-47
+256            android:launchMode="standard"
+256-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:94:13-42
+257            android:multiprocess="true"
+257-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:95:13-40
+258            android:screenOrientation="landscape"
+258-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:96:13-50
+259            android:supportsPictureInPicture="true"
+259-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:97:13-52
+260            android:taskAffinity="virtual.camera.app.vt"
+260-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:98:13-55
+261            android:theme="@style/Theme.ActivityAgentT" >
+261-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:99:13-56
+262        </activity>
+263        <activity
+263-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:101:9-111:20
+264            android:name="com.hack.agent.HackAppActivity$B"
+264-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:102:13-60
+265            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+265-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:103:13-186
+266            android:hardwareAccelerated="true"
+266-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:104:13-47
+267            android:launchMode="standard"
+267-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:105:13-42
+268            android:multiprocess="true"
+268-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:106:13-40
+269            android:screenOrientation="behind"
+269-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:107:13-47
+270            android:supportsPictureInPicture="true"
+270-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:108:13-52
+271            android:taskAffinity="virtual.camera.app.vt"
+271-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:109:13-55
+272            android:theme="@style/Theme.ActivityAgent" >
+272-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:110:13-55
+273        </activity>
+274        <activity
+274-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:112:9-122:20
+275            android:name="com.hack.agent.HackAppActivity$BT"
+275-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:113:13-61
+276            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|screenLayout|fontScale|uiMode|orientation|screenSize|smallestScreenSize|layoutDirection"
+276-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:114:13-186
+277            android:hardwareAccelerated="true"
+277-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:115:13-47
+278            android:launchMode="standard"
+278-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:116:13-42
+279            android:multiprocess="true"
+279-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:117:13-40
+280            android:screenOrientation="behind"
+280-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:118:13-47
+281            android:supportsPictureInPicture="true"
+281-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:119:13-52
+282            android:taskAffinity="virtual.camera.app.vt"
+282-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:120:13-55
+283            android:theme="@style/Theme.ActivityAgentT" >
+283-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:121:13-56
+284        </activity>
+285        <activity
+285-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:123:9-129:59
+286            android:name="com.hack.assist.AssistActivity$P0"
+286-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:124:13-61
+287            android:exported="true"
+287-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:125:13-36
+288            android:process=":agent.p0"
+288-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:126:13-40
+289            android:screenOrientation="behind"
+289-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:127:13-47
+290            android:taskAffinity="virtual.camera.app.vt"
+290-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:128:13-55
+291            android:theme="@style/Theme.ActivityAgentT" />
+291-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:129:13-56
+292
+293        <provider
+293-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:131:9-136:20
+294            android:name="com.hack.agent.HackAppProvider$P0"
+294-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:132:13-61
+295            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p0"
+295-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:133:13-85
+296            android:exported="true"
+296-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:134:13-36
+297            android:process=":agent.p0" >
+297-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:135:13-40
+298        </provider>
+299
+300        <activity
+300-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:138:9-144:59
+301            android:name="com.hack.assist.AssistActivity$P1"
+301-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:139:13-61
+302            android:exported="true"
+302-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:140:13-36
+303            android:process=":agent.p1"
+303-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:141:13-40
+304            android:screenOrientation="behind"
+304-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:142:13-47
+305            android:taskAffinity="virtual.camera.app.vt"
+305-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:143:13-55
+306            android:theme="@style/Theme.ActivityAgentT" />
+306-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:144:13-56
+307
+308        <provider
+308-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:146:9-151:20
+309            android:name="com.hack.agent.HackAppProvider$P1"
+309-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:147:13-61
+310            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p1"
+310-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:148:13-85
+311            android:exported="true"
+311-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:149:13-36
+312            android:process=":agent.p1" >
+312-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:150:13-40
+313        </provider>
+314
+315        <activity
+315-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:153:9-159:59
+316            android:name="com.hack.assist.AssistActivity$P2"
+316-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:154:13-61
+317            android:exported="true"
+317-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:155:13-36
+318            android:process=":agent.p2"
+318-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:156:13-40
+319            android:screenOrientation="behind"
+319-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:157:13-47
+320            android:taskAffinity="virtual.camera.app.vt"
+320-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:158:13-55
+321            android:theme="@style/Theme.ActivityAgentT" />
+321-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:159:13-56
+322
+323        <provider
+323-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:161:9-166:20
+324            android:name="com.hack.agent.HackAppProvider$P2"
+324-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:162:13-61
+325            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p2"
+325-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:163:13-85
+326            android:exported="true"
+326-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:164:13-36
+327            android:process=":agent.p2" >
+327-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:165:13-40
+328        </provider>
+329
+330        <activity
+330-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:168:9-174:59
+331            android:name="com.hack.assist.AssistActivity$P3"
+331-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:169:13-61
+332            android:exported="true"
+332-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:170:13-36
+333            android:process=":agent.p3"
+333-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:171:13-40
+334            android:screenOrientation="behind"
+334-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:172:13-47
+335            android:taskAffinity="virtual.camera.app.vt"
+335-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:173:13-55
+336            android:theme="@style/Theme.ActivityAgentT" />
+336-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:174:13-56
+337
+338        <provider
+338-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:176:9-181:20
+339            android:name="com.hack.agent.HackAppProvider$P3"
+339-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:177:13-61
+340            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p3"
+340-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:178:13-85
+341            android:exported="true"
+341-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:179:13-36
+342            android:process=":agent.p3" >
+342-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:180:13-40
+343        </provider>
+344
+345        <activity
+345-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:183:9-189:59
+346            android:name="com.hack.assist.AssistActivity$P4"
+346-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:184:13-61
+347            android:exported="true"
+347-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:185:13-36
+348            android:process=":agent.p4"
+348-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:186:13-40
+349            android:screenOrientation="behind"
+349-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:187:13-47
+350            android:taskAffinity="virtual.camera.app.vt"
+350-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:188:13-55
+351            android:theme="@style/Theme.ActivityAgentT" />
+351-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:189:13-56
+352
+353        <provider
+353-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:191:9-196:20
+354            android:name="com.hack.agent.HackAppProvider$P4"
+354-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:192:13-61
+355            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p4"
+355-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:193:13-85
+356            android:exported="true"
+356-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:194:13-36
+357            android:process=":agent.p4" >
+357-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:195:13-40
+358        </provider>
+359
+360        <activity
+360-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:198:9-204:59
+361            android:name="com.hack.assist.AssistActivity$P5"
+361-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:199:13-61
+362            android:exported="true"
+362-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:200:13-36
+363            android:process=":agent.p5"
+363-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:201:13-40
+364            android:screenOrientation="behind"
+364-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:202:13-47
+365            android:taskAffinity="virtual.camera.app.vt"
+365-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:203:13-55
+366            android:theme="@style/Theme.ActivityAgentT" />
+366-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:204:13-56
+367
+368        <provider
+368-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:206:9-211:20
+369            android:name="com.hack.agent.HackAppProvider$P5"
+369-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:207:13-61
+370            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p5"
+370-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:208:13-85
+371            android:exported="true"
+371-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:209:13-36
+372            android:process=":agent.p5" >
+372-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:210:13-40
+373        </provider>
+374
+375        <activity
+375-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:213:9-219:59
+376            android:name="com.hack.assist.AssistActivity$P6"
+376-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:214:13-61
+377            android:exported="true"
+377-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:215:13-36
+378            android:process=":agent.p6"
+378-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:216:13-40
+379            android:screenOrientation="behind"
+379-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:217:13-47
+380            android:taskAffinity="virtual.camera.app.vt"
+380-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:218:13-55
+381            android:theme="@style/Theme.ActivityAgentT" />
+381-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:219:13-56
+382
+383        <provider
+383-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:221:9-226:20
+384            android:name="com.hack.agent.HackAppProvider$P6"
+384-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:222:13-61
+385            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p6"
+385-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:223:13-85
+386            android:exported="true"
+386-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:224:13-36
+387            android:process=":agent.p6" >
+387-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:225:13-40
+388        </provider>
+389
+390        <activity
+390-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:228:9-234:59
+391            android:name="com.hack.assist.AssistActivity$P7"
+391-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:229:13-61
+392            android:exported="true"
+392-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:230:13-36
+393            android:process=":agent.p7"
+393-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:231:13-40
+394            android:screenOrientation="behind"
+394-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:232:13-47
+395            android:taskAffinity="virtual.camera.app.vt"
+395-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:233:13-55
+396            android:theme="@style/Theme.ActivityAgentT" />
+396-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:234:13-56
+397
+398        <provider
+398-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:236:9-241:20
+399            android:name="com.hack.agent.HackAppProvider$P7"
+399-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:237:13-61
+400            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p7"
+400-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:238:13-85
+401            android:exported="true"
+401-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:239:13-36
+402            android:process=":agent.p7" >
+402-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:240:13-40
+403        </provider>
+404
+405        <activity
+405-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:243:9-249:59
+406            android:name="com.hack.assist.AssistActivity$P8"
+406-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:244:13-61
+407            android:exported="true"
+407-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:245:13-36
+408            android:process=":agent.p8"
+408-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:246:13-40
+409            android:screenOrientation="behind"
+409-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:247:13-47
+410            android:taskAffinity="virtual.camera.app.vt"
+410-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:248:13-55
+411            android:theme="@style/Theme.ActivityAgentT" />
+411-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:249:13-56
+412
+413        <provider
+413-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:251:9-256:20
+414            android:name="com.hack.agent.HackAppProvider$P8"
+414-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:252:13-61
+415            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p8"
+415-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:253:13-85
+416            android:exported="true"
+416-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:254:13-36
+417            android:process=":agent.p8" >
+417-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:255:13-40
+418        </provider>
+419
+420        <activity
+420-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:258:9-264:59
+421            android:name="com.hack.assist.AssistActivity$P9"
+421-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:259:13-61
+422            android:exported="true"
+422-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:260:13-36
+423            android:process=":agent.p9"
+423-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:261:13-40
+424            android:screenOrientation="behind"
+424-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:262:13-47
+425            android:taskAffinity="virtual.camera.app.vt"
+425-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:263:13-55
+426            android:theme="@style/Theme.ActivityAgentT" />
+426-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:264:13-56
+427
+428        <provider
+428-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:266:9-271:20
+429            android:name="com.hack.agent.HackAppProvider$P9"
+429-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:267:13-61
+430            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p9"
+430-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:268:13-85
+431            android:exported="true"
+431-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:269:13-36
+432            android:process=":agent.p9" >
+432-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:270:13-40
+433        </provider>
+434
+435        <activity
+435-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:273:9-279:59
+436            android:name="com.hack.assist.AssistActivity$P10"
+436-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:274:13-62
+437            android:exported="true"
+437-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:275:13-36
+438            android:process=":agent.p10"
+438-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:276:13-41
+439            android:screenOrientation="behind"
+439-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:277:13-47
+440            android:taskAffinity="virtual.camera.app.vt"
+440-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:278:13-55
+441            android:theme="@style/Theme.ActivityAgentT" />
+441-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:279:13-56
+442
+443        <provider
+443-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:281:9-286:20
+444            android:name="com.hack.agent.HackAppProvider$P10"
+444-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:282:13-62
+445            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p10"
+445-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:283:13-86
+446            android:exported="true"
+446-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:284:13-36
+447            android:process=":agent.p10" >
+447-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:285:13-41
+448        </provider>
+449
+450        <activity
+450-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:288:9-294:59
+451            android:name="com.hack.assist.AssistActivity$P11"
+451-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:289:13-62
+452            android:exported="true"
+452-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:290:13-36
+453            android:process=":agent.p11"
+453-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:291:13-41
+454            android:screenOrientation="behind"
+454-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:292:13-47
+455            android:taskAffinity="virtual.camera.app.vt"
+455-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:293:13-55
+456            android:theme="@style/Theme.ActivityAgentT" />
+456-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:294:13-56
+457
+458        <provider
+458-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:296:9-301:20
+459            android:name="com.hack.agent.HackAppProvider$P11"
+459-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:297:13-62
+460            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p11"
+460-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:298:13-86
+461            android:exported="true"
+461-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:299:13-36
+462            android:process=":agent.p11" >
+462-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:300:13-41
+463        </provider>
+464
+465        <activity
+465-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:303:9-309:59
+466            android:name="com.hack.assist.AssistActivity$P12"
+466-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:304:13-62
+467            android:exported="true"
+467-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:305:13-36
+468            android:process=":agent.p12"
+468-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:306:13-41
+469            android:screenOrientation="behind"
+469-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:307:13-47
+470            android:taskAffinity="virtual.camera.app.vt"
+470-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:308:13-55
+471            android:theme="@style/Theme.ActivityAgentT" />
+471-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:309:13-56
+472
+473        <provider
+473-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:311:9-316:20
+474            android:name="com.hack.agent.HackAppProvider$P12"
+474-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:312:13-62
+475            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p12"
+475-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:313:13-86
+476            android:exported="true"
+476-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:314:13-36
+477            android:process=":agent.p12" >
+477-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:315:13-41
+478        </provider>
+479
+480        <activity
+480-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:318:9-324:59
+481            android:name="com.hack.assist.AssistActivity$P13"
+481-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:319:13-62
+482            android:exported="true"
+482-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:320:13-36
+483            android:process=":agent.p13"
+483-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:321:13-41
+484            android:screenOrientation="behind"
+484-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:322:13-47
+485            android:taskAffinity="virtual.camera.app.vt"
+485-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:323:13-55
+486            android:theme="@style/Theme.ActivityAgentT" />
+486-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:324:13-56
+487
+488        <provider
+488-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:326:9-331:20
+489            android:name="com.hack.agent.HackAppProvider$P13"
+489-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:327:13-62
+490            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p13"
+490-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:328:13-86
+491            android:exported="true"
+491-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:329:13-36
+492            android:process=":agent.p13" >
+492-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:330:13-41
+493        </provider>
+494
+495        <activity
+495-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:333:9-339:59
+496            android:name="com.hack.assist.AssistActivity$P14"
+496-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:334:13-62
+497            android:exported="true"
+497-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:335:13-36
+498            android:process=":agent.p14"
+498-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:336:13-41
+499            android:screenOrientation="behind"
+499-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:337:13-47
+500            android:taskAffinity="virtual.camera.app.vt"
+500-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:338:13-55
+501            android:theme="@style/Theme.ActivityAgentT" />
+501-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:339:13-56
+502
+503        <provider
+503-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:341:9-346:20
+504            android:name="com.hack.agent.HackAppProvider$P14"
+504-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:342:13-62
+505            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p14"
+505-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:343:13-86
+506            android:exported="true"
+506-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:344:13-36
+507            android:process=":agent.p14" >
+507-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:345:13-41
+508        </provider>
+509
+510        <activity
+510-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:348:9-354:59
+511            android:name="com.hack.assist.AssistActivity$P15"
+511-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:349:13-62
+512            android:exported="true"
+512-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:350:13-36
+513            android:process=":agent.p15"
+513-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:351:13-41
+514            android:screenOrientation="behind"
+514-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:352:13-47
+515            android:taskAffinity="virtual.camera.app.vt"
+515-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:353:13-55
+516            android:theme="@style/Theme.ActivityAgentT" />
+516-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:354:13-56
+517
+518        <provider
+518-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:356:9-361:20
+519            android:name="com.hack.agent.HackAppProvider$P15"
+519-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:357:13-62
+520            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p15"
+520-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:358:13-86
+521            android:exported="true"
+521-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:359:13-36
+522            android:process=":agent.p15" >
+522-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:360:13-41
+523        </provider>
+524
+525        <activity
+525-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:363:9-369:59
+526            android:name="com.hack.assist.AssistActivity$P16"
+526-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:364:13-62
+527            android:exported="true"
+527-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:365:13-36
+528            android:process=":agent.p16"
+528-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:366:13-41
+529            android:screenOrientation="behind"
+529-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:367:13-47
+530            android:taskAffinity="virtual.camera.app.vt"
+530-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:368:13-55
+531            android:theme="@style/Theme.ActivityAgentT" />
+531-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:369:13-56
+532
+533        <provider
+533-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:371:9-376:20
+534            android:name="com.hack.agent.HackAppProvider$P16"
+534-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:372:13-62
+535            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p16"
+535-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:373:13-86
+536            android:exported="true"
+536-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:374:13-36
+537            android:process=":agent.p16" >
+537-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:375:13-41
+538        </provider>
+539
+540        <activity
+540-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:378:9-384:59
+541            android:name="com.hack.assist.AssistActivity$P17"
+541-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:379:13-62
+542            android:exported="true"
+542-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:380:13-36
+543            android:process=":agent.p17"
+543-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:381:13-41
+544            android:screenOrientation="behind"
+544-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:382:13-47
+545            android:taskAffinity="virtual.camera.app.vt"
+545-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:383:13-55
+546            android:theme="@style/Theme.ActivityAgentT" />
+546-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:384:13-56
+547
+548        <provider
+548-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:386:9-391:20
+549            android:name="com.hack.agent.HackAppProvider$P17"
+549-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:387:13-62
+550            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p17"
+550-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:388:13-86
+551            android:exported="true"
+551-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:389:13-36
+552            android:process=":agent.p17" >
+552-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:390:13-41
+553        </provider>
+554
+555        <activity
+555-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:393:9-399:59
+556            android:name="com.hack.assist.AssistActivity$P18"
+556-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:394:13-62
+557            android:exported="true"
+557-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:395:13-36
+558            android:process=":agent.p18"
+558-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:396:13-41
+559            android:screenOrientation="behind"
+559-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:397:13-47
+560            android:taskAffinity="virtual.camera.app.vt"
+560-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:398:13-55
+561            android:theme="@style/Theme.ActivityAgentT" />
+561-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:399:13-56
+562
+563        <provider
+563-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:401:9-406:20
+564            android:name="com.hack.agent.HackAppProvider$P18"
+564-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:402:13-62
+565            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p18"
+565-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:403:13-86
+566            android:exported="true"
+566-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:404:13-36
+567            android:process=":agent.p18" >
+567-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:405:13-41
+568        </provider>
+569
+570        <activity
+570-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:408:9-414:59
+571            android:name="com.hack.assist.AssistActivity$P19"
+571-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:409:13-62
+572            android:exported="true"
+572-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:410:13-36
+573            android:process=":agent.p19"
+573-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:411:13-41
+574            android:screenOrientation="behind"
+574-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:412:13-47
+575            android:taskAffinity="virtual.camera.app.vt"
+575-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:413:13-55
+576            android:theme="@style/Theme.ActivityAgentT" />
+576-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:414:13-56
+577
+578        <provider
+578-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:416:9-421:20
+579            android:name="com.hack.agent.HackAppProvider$P19"
+579-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:417:13-62
+580            android:authorities="virtual.camera.app:com.hack.agent.HackAppProvider.p19"
+580-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:418:13-86
+581            android:exported="true"
+581-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:419:13-36
+582            android:process=":agent.p19" >
+582-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:420:13-41
+583        </provider>
+584        <provider
+584-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:422:9-428:20
+585            android:name="com.hack.server.core.HackServerProvider"
+585-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:423:13-67
+586            android:authorities="virtual.camera.app:com.hack.server.core.HackServerProvider"
+586-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:424:13-91
+587            android:enabled="true"
+587-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:425:13-35
+588            android:exported="true"
+588-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:426:13-36
+589            android:process="@string/service_process" >
+589-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:427:13-54
+590        </provider>
+591        <provider
+591-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:429:9-435:20
+592            android:name="com.hack.assist.AssistProvider"
+592-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:430:13-58
+593            android:authorities="virtual.camera.app:com.hack.assist.AssistProvider"
+593-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:431:13-82
+594            android:enabled="true"
+594-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:432:13-35
+595            android:exported="true"
+595-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:433:13-36
+596            android:process="@string/service_process" >
+596-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:434:13-54
+597        </provider>
+598        <provider
+598-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:436:9-439:40
+599            android:name="com.hack.server.core.TransactProvider"
+599-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:437:13-65
+600            android:authorities="virtual.camera.app:com.hack.server.core.TransactProvider"
+600-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:438:13-89
+601            android:exported="false" />
+601-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:439:13-37
+602
+603        <service
+603-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:441:9-444:57
+604            android:name="com.hack.server.core.ForgroundService"
+604-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:442:13-65
+605            android:exported="false"
+605-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:443:13-37
+606            android:process="@string/service_process" />
+606-->[:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:444:13-54
+607
+608        <provider
+608-->[com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:12:9-16:43
+609            android:name="com.lzf.easyfloat.EasyFloatInitializer"
+609-->[com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:13:13-66
+610            android:authorities="virtual.camera.app.EasyFloatInitializer"
+610-->[com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:14:13-72
+611            android:exported="false"
+611-->[com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:15:13-37
+612            android:multiprocess="true" />
+612-->[com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:16:13-40
+613
+614        <uses-library
+614-->[androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+615            android:name="androidx.window.extensions"
+615-->[androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+616            android:required="false" />
+616-->[androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+617        <uses-library
+617-->[androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+618            android:name="androidx.window.sidecar"
+618-->[androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+619            android:required="false" />
+619-->[androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+620
+621        <provider
+621-->[androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+622            android:name="androidx.startup.InitializationProvider"
+622-->[androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+623            android:authorities="virtual.camera.app.androidx-startup"
+623-->[androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+624            android:exported="false" >
+624-->[androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+625            <meta-data
+625-->[androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+626                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+626-->[androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+627                android:value="androidx.startup" />
+627-->[androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+628            <meta-data
+628-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+629                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+629-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+630                android:value="androidx.startup" />
+630-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+631        </provider>
+632    </application>
+633
+634</manifest>

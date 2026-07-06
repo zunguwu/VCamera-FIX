@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\activity_camera_settings.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_camera_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\item_viewpager.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\item_viewpager.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\item_gms.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\item_gms.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\item_xp.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\item_xp.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\view_toolbar.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\view_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\activity_osmdroid.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_osmdroid.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\fragment_apps.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\fragment_apps.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\view_switch.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\view_switch.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\activity_gms.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_gms.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\activity_list.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\base_empty.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\base_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\activity_xp.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_xp.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\activity_setting.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "virtual.camera.app-mergeDebugResources-43:/layout/activity_camera_settings.xml",
+        "source": "virtual.camera.app-main-46:/layout/activity_camera_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\item_package.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\item_package.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\item_fake.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\item_fake.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\item_app.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\item_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-mergeDebugResources-43:\\layout\\view_float_rocker.xml",
+        "source": "C:\\Users\\doanh\\.gradle\\daemon\\8.11.1\\virtual.camera.app-main-46:\\layout\\view_float_rocker.xml"
+    }
+]

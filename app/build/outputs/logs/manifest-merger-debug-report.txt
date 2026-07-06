@@ -1,0 +1,1478 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:2:1-139:12
+MERGED from [com.github.Ferfalk:SimpleSearchView:0.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\52c3c48c0bbdd247b318f11123031920\transformed\jetified-SimpleSearchView-0.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.databinding:viewbinding:8.10.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\7a7e05eaba417b3a7a1a5c8983e79e89\transformed\jetified-viewbinding-8.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\e954701f02e634a13c6e57a931689575\transformed\jetified-preference-ktx-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\c5717bfadfd71b8b97a58422b954161b\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.gitee.cbfg5210:RVAdapter:0.3.7] C:\Users\doanh\.gradle\caches\8.11.1\transforms\dc4cfa1d79a570bec8097b13b5653439\transformed\jetified-RVAdapter-0.3.7\AndroidManifest.xml:2:1-9:12
+MERGED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-447:12
+MERGED from [com.tbuonomo:dotsindicator:4.2] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d9fd33d8f31c4de7e0691b5c96d88455\transformed\jetified-dotsindicator-4.2\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.nukc:StateView:v3.0.2] C:\Users\doanh\.gradle\caches\8.11.1\transforms\3719bb590bf59bd8d579cf7464797505\transformed\jetified-StateView-v3.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:2:1-19:12
+MERGED from [com.afollestad.material-dialogs:input:3.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\c8a4acb9676a26e776db7f33b1398a3a\transformed\jetified-input-3.3.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.afollestad.material-dialogs:core:3.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\548fd99f571a80bb62f406dbcbfc4d8a\transformed\jetified-core-3.3.0\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\e38fc36eddab9c55c65e1e8a522976cd\transformed\preference-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\60263bc11cabaf8df475477cf75d0d25\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\ec78487018409950e229aed65d6e5f7e\transformed\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\5eb2ee6bcc7e116c9f65436fe7e4e1d9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\doanh\.gradle\caches\8.11.1\transforms\9df782a481648a775aa39327aea7344b\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\8aafc5cdc0f3d1c9f7ab9baacb254a34\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d49d7d8c06a8038066ea7519ea4bc9fa\transformed\jetified-lottie-6.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\501e177c27b3cc75045e28e4ef7cf988\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1882fe6a974010663a9cceb0424e7b00\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\doanh\.gradle\caches\8.11.1\transforms\9631cec7bb061d11f4cefd82810f9785\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\7ae518ceddd15325a22847100c0436d7\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1c547a77538736202183a18745fda403\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\70b8c458a10746c69e1b36bcd7f0d0ed\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\e546823df3391d6eb446be148cec86ce\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d26b4dfb1207cf0b1d752800cdef003d\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\5919b6b0594e8981455e6a276dd738f3\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\618cab0c0ff8938953c424fe839c2797\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d771bdbf882572173ba0d17939075cc4\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\3e562ae2c55f8026f96e6f4fdd3fcce4\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d865c568166468bef8ffed66551ad7ea\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d739473f1766e5b092d68e909764a98c\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\0bc7ca5cd408d2daaa6d83b19469807d\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\ac14ecb5bc71ec84de7446538b979c0b\transformed\recyclerview-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a3bea19cdbbbaf3de7e0f0fd45ebfa6e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\41f4671843c68abb959b2af9791b52bd\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\7633ad430911e49b2f07ff54ae13aa4a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\7e733ce698eb7e61a349aaea60e925f4\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14339ebd4ec332d4b0535f5630816add\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\4e881b4cdac11a96288b85b877b1fd96\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1c45b7e021639ac3b38f4d4782cb24d7\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\11389fe1cf02b94fe12c757866efd99d\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\77ab45c6ea0285df69f84372ada684ef\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a6b79afe79a5303a16518157ebc3363c\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.Othershe:CornerLabelView:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\90dfc1f7158841d63abf04a6f15ee542\transformed\jetified-CornerLabelView-1.0.0\AndroidManifest.xml:2:1-17:12
+MERGED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\af597b04bb92670288b5a15137598d30\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1dfc84b34208bc9f2a5c72cb65c2ad6c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\bcc37630c1e9240dd5d0e74df9dd7b3d\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\51d6dc9822c3de4c3e14fd05ff434ab3\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\834678b44e1c40bf21741e7ed8d65a41\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\25be23899259a808c8771fe79ebb61f6\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\76033fcc4b6e5c4c25f4338626de10d0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\62ae28e8405355afe9456cb8f4345ad7\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\8a5286ae14a18c1d21397024daaf8db5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\764cecf40937f18764f54f44c5bbbbaf\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\4e73a8eae1f12a5a86a31fa2fbf271f8\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\6a7c7b344258d2c8b37ffd5c66bfc388\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\6bc4bf7b462c7c13cd8a6755680d380f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:4:5-33
+		INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:6:22-74
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:9:5-82
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:9:22-79
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:11:5-83
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:11:22-80
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:14:5-85
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:14:22-82
+uses-permission#android.permission.READ_MEDIA_AUDIO
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:17:5-74
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.READ_MEDIA_VIDEO
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:19:5-74
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.ACCESS_MEDIA_LOCATION
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:24:22-64
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:25:5-69
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:25:22-66
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:26:5-65
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:26:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:28:5-60
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:28:19-57
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:31:5-89
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:31:22-86
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:32:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:33:5-79
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:33:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:34:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:35:22-76
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:36:5-86
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:36:22-83
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:37:5-76
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:37:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:38:5-81
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:38:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:39:5-80
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:39:22-77
+uses-permission#android.permission.BODY_SENSORS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:40:5-71
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:40:22-68
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:41:5-75
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:41:22-72
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:42:5-75
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:42:22-72
+uses-permission#android.permission.EXPAND_STATUS_BAR
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:43:5-75
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:43:22-73
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:44:5-71
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:44:22-68
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:45:5-74
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:45:22-71
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:46:5-75
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:46:22-72
+uses-permission#android.permission.READ_PHONE_NUMBERS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:47:5-77
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:47:22-74
+uses-permission#android.permission.ANSWER_PHONE_CALLS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:48:5-77
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:48:22-74
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:49:5-68
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:49:22-65
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:50:5-84
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:50:22-81
+uses-permission#android.permission.REORDER_TASKS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:51:5-72
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:51:22-69
+uses-permission#android.permission.PERSISTENT_ACTIVITY
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:52:5-78
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:52:22-75
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:53:5-71
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:53:22-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:55:5-68
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:55:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:56:5-74
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:56:22-71
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:57:5-75
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:57:22-73
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:58:5-73
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:58:22-70
+uses-permission#android.permission.NFC
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:59:5-62
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:59:22-59
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:60:5-80
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:60:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:61:5-66
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:61:22-63
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:62:5-74
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:62:22-71
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:63:5-93
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:63:22-90
+uses-permission#com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:64:5-94
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:64:22-91
+uses-permission#android.permission.GET_PACKAGE_SIZE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:65:5-75
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:65:22-72
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:66:5-78
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:66:22-75
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:67:5-77
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:67:22-74
+uses-permission#android.permission.READ_SYNC_STATS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:68:5-74
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:68:22-71
+uses-permission#android.permission.SUBSCRIBED_FEEDS_READ
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:69:5-80
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:69:22-77
+uses-permission#android.permission.SUBSCRIBED_FEEDS_WRITE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:70:5-81
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:70:22-78
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:71:5-73
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:71:22-70
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:72:5-72
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:72:22-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:73:5-72
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:73:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:74:5-73
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:74:22-70
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:75:5-75
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:75:22-72
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:76:5-72
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:76:22-69
+uses-permission#android.permission.SET_WALLPAPER_HINTS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:77:5-78
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:77:22-75
+uses-permission#android.permission.TRANSMIT_IR
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:78:5-70
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:78:22-67
+uses-permission#android.permission.USE_SIP
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:79:5-66
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:79:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:80:5-68
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:80:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:81:5-78
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:81:22-75
+uses-permission#android.permission.SYSTEM_OVERLAY_WINDOW
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:82:5-80
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:82:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:83:5-81
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:83:22-78
+uses-permission#android.permission.READ_INSTALL_SESSIONS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:84:5-80
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:84:22-77
+uses-permission#android.permission.READ_OWNER_DATA
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:85:5-74
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:85:22-71
+uses-permission#android.permission.WRITE_CLIPS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:86:5-70
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:86:22-67
+uses-permission#android.permission.READ_CLIPS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:87:5-69
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:87:22-66
+uses-permission#android.permission.GET_CLIPS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:88:5-68
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:88:22-65
+uses-permission#android.permission.WRITE_OWNER_DATA
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:89:5-75
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:89:22-72
+uses-permission#android.permission.ACCESS_GPS
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:90:5-69
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:90:22-66
+uses-permission#android.permission.ACCESS_WIMAX_STATE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:91:5-77
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:91:22-74
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:92:5-82
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:92:22-79
+uses-permission#android.permission.CHANGE_WIMAX_STATE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:93:5-77
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:93:22-74
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:94:5-88
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:94:22-85
+uses-permission#android.permission.REQUEST_DELETE_PACKAGES
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:95:5-82
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:95:22-79
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:96:5-79
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:96:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:98:5-69
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:98:22-66
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:99:5-77
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:99:22-74
+uses-permission#com.open.gallery.smart.Read
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:101:5-66
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:101:22-64
+uses-permission#com.open.gallery.smart.Write
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:102:5-67
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:102:22-65
+uses-permission#com.open.gallery.smart.Provider
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:103:5-71
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:103:22-68
+uses-permission#ohos.permission.GET_BUNDLE_INFO
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:105:5-70
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:105:22-68
+uses-permission#ohos.permission.GET_BUNDLE_INFO_PRIVILEGED
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:106:5-81
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:106:22-79
+application
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:108:5-137:19
+INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:108:5-137:19
+MERGED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-445:19
+MERGED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-445:19
+MERGED from [com.tbuonomo:dotsindicator:4.2] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d9fd33d8f31c4de7e0691b5c96d88455\transformed\jetified-dotsindicator-4.2\AndroidManifest.xml:11:5-47
+MERGED from [com.tbuonomo:dotsindicator:4.2] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d9fd33d8f31c4de7e0691b5c96d88455\transformed\jetified-dotsindicator-4.2\AndroidManifest.xml:11:5-47
+MERGED from [com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:11:5-17:19
+MERGED from [com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:11:5-17:19
+MERGED from [com.afollestad.material-dialogs:input:3.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\c8a4acb9676a26e776db7f33b1398a3a\transformed\jetified-input-3.3.0\AndroidManifest.xml:11:5-47
+MERGED from [com.afollestad.material-dialogs:input:3.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\c8a4acb9676a26e776db7f33b1398a3a\transformed\jetified-input-3.3.0\AndroidManifest.xml:11:5-47
+MERGED from [com.afollestad.material-dialogs:core:3.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\548fd99f571a80bb62f406dbcbfc4d8a\transformed\jetified-core-3.3.0\AndroidManifest.xml:11:5-47
+MERGED from [com.afollestad.material-dialogs:core:3.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\548fd99f571a80bb62f406dbcbfc4d8a\transformed\jetified-core-3.3.0\AndroidManifest.xml:11:5-47
+MERGED from [androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\ec78487018409950e229aed65d6e5f7e\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\ec78487018409950e229aed65d6e5f7e\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\8aafc5cdc0f3d1c9f7ab9baacb254a34\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\8aafc5cdc0f3d1c9f7ab9baacb254a34\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d49d7d8c06a8038066ea7519ea4bc9fa\transformed\jetified-lottie-6.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d49d7d8c06a8038066ea7519ea4bc9fa\transformed\jetified-lottie-6.1.0\AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [com.github.Othershe:CornerLabelView:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\90dfc1f7158841d63abf04a6f15ee542\transformed\jetified-CornerLabelView-1.0.0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.Othershe:CornerLabelView:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\90dfc1f7158841d63abf04a6f15ee542\transformed\jetified-CornerLabelView-1.0.0\AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1dfc84b34208bc9f2a5c72cb65c2ad6c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1dfc84b34208bc9f2a5c72cb65c2ad6c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\4e73a8eae1f12a5a86a31fa2fbf271f8\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\4e73a8eae1f12a5a86a31fa2fbf271f8\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml
+		REJECTED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-41
+	android:multiArch
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:9-33
+	android:largeHeap
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:9-33
+	android:icon
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:111:9-43
+	android:allowNativeHeapPointerTagging
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-54
+	android:networkSecurityConfig
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:113:9-69
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:114:9-35
+	android:label
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:112:9-41
+	android:hardwareAccelerated
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:9-43
+	tools:targetApi
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:116:9-28
+	android:allowBackup
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:110:9-35
+	android:theme
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:115:9-45
+	android:usesCleartextTraffic
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:109:9-50
+activity#virtual.camera.app.view.setting.SettingActivity
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:117:9-108
+	android:exported
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:117:82-106
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:117:19-81
+activity#virtual.camera.app.view.gms.GmsManagerActivity
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:118:9-107
+	android:exported
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:118:81-105
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:118:19-80
+activity#virtual.camera.app.view.main.WelcomeActivity
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:119:9-129:20
+	android:launchMode
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:121:13-43
+	android:exported
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:122:13-36
+	android:theme
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:123:13-48
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:120:13-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:124:13-128:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:125:17-69
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:125:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:127:17-77
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:127:27-74
+activity#virtual.camera.app.view.list.ListActivity
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:130:9-102
+	android:exported
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:130:76-100
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:130:19-75
+activity#virtual.camera.app.view.main.MainActivity
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:132:9-136:20
+	android:exported
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:132:76-100
+	android:name
+		ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:132:19-75
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml:133:13-135:29
+uses-sdk
+INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml
+MERGED from [com.github.Ferfalk:SimpleSearchView:0.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\52c3c48c0bbdd247b318f11123031920\transformed\jetified-SimpleSearchView-0.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Ferfalk:SimpleSearchView:0.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\52c3c48c0bbdd247b318f11123031920\transformed\jetified-SimpleSearchView-0.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:viewbinding:8.10.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\7a7e05eaba417b3a7a1a5c8983e79e89\transformed\jetified-viewbinding-8.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.10.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\7a7e05eaba417b3a7a1a5c8983e79e89\transformed\jetified-viewbinding-8.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\e954701f02e634a13c6e57a931689575\transformed\jetified-preference-ktx-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\e954701f02e634a13c6e57a931689575\transformed\jetified-preference-ktx-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\c5717bfadfd71b8b97a58422b954161b\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.3.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\c5717bfadfd71b8b97a58422b954161b\transformed\jetified-lifecycle-livedata-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.gitee.cbfg5210:RVAdapter:0.3.7] C:\Users\doanh\.gradle\caches\8.11.1\transforms\dc4cfa1d79a570bec8097b13b5653439\transformed\jetified-RVAdapter-0.3.7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.gitee.cbfg5210:RVAdapter:0.3.7] C:\Users\doanh\.gradle\caches\8.11.1\transforms\dc4cfa1d79a570bec8097b13b5653439\transformed\jetified-RVAdapter-0.3.7\AndroidManifest.xml:5:5-7:41
+MERGED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [com.tbuonomo:dotsindicator:4.2] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d9fd33d8f31c4de7e0691b5c96d88455\transformed\jetified-dotsindicator-4.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbuonomo:dotsindicator:4.2] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d9fd33d8f31c4de7e0691b5c96d88455\transformed\jetified-dotsindicator-4.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.nukc:StateView:v3.0.2] C:\Users\doanh\.gradle\caches\8.11.1\transforms\3719bb590bf59bd8d579cf7464797505\transformed\jetified-StateView-v3.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.nukc:StateView:v3.0.2] C:\Users\doanh\.gradle\caches\8.11.1\transforms\3719bb590bf59bd8d579cf7464797505\transformed\jetified-StateView-v3.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:input:3.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\c8a4acb9676a26e776db7f33b1398a3a\transformed\jetified-input-3.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:input:3.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\c8a4acb9676a26e776db7f33b1398a3a\transformed\jetified-input-3.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:core:3.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\548fd99f571a80bb62f406dbcbfc4d8a\transformed\jetified-core-3.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:core:3.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\548fd99f571a80bb62f406dbcbfc4d8a\transformed\jetified-core-3.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\e38fc36eddab9c55c65e1e8a522976cd\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\e38fc36eddab9c55c65e1e8a522976cd\transformed\preference-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\60263bc11cabaf8df475477cf75d0d25\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\60263bc11cabaf8df475477cf75d0d25\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\ec78487018409950e229aed65d6e5f7e\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\ec78487018409950e229aed65d6e5f7e\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\5eb2ee6bcc7e116c9f65436fe7e4e1d9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\5eb2ee6bcc7e116c9f65436fe7e4e1d9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\doanh\.gradle\caches\8.11.1\transforms\9df782a481648a775aa39327aea7344b\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] C:\Users\doanh\.gradle\caches\8.11.1\transforms\9df782a481648a775aa39327aea7344b\transformed\jetified-fragment-ktx-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\8aafc5cdc0f3d1c9f7ab9baacb254a34\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\8aafc5cdc0f3d1c9f7ab9baacb254a34\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d49d7d8c06a8038066ea7519ea4bc9fa\transformed\jetified-lottie-6.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d49d7d8c06a8038066ea7519ea4bc9fa\transformed\jetified-lottie-6.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\501e177c27b3cc75045e28e4ef7cf988\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\501e177c27b3cc75045e28e4ef7cf988\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1882fe6a974010663a9cceb0424e7b00\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1882fe6a974010663a9cceb0424e7b00\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\doanh\.gradle\caches\8.11.1\transforms\9631cec7bb061d11f4cefd82810f9785\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\doanh\.gradle\caches\8.11.1\transforms\9631cec7bb061d11f4cefd82810f9785\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\7ae518ceddd15325a22847100c0436d7\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\7ae518ceddd15325a22847100c0436d7\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1c547a77538736202183a18745fda403\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1c547a77538736202183a18745fda403\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\70b8c458a10746c69e1b36bcd7f0d0ed\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\70b8c458a10746c69e1b36bcd7f0d0ed\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\e546823df3391d6eb446be148cec86ce\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\e546823df3391d6eb446be148cec86ce\transformed\jetified-activity-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d26b4dfb1207cf0b1d752800cdef003d\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d26b4dfb1207cf0b1d752800cdef003d\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\5919b6b0594e8981455e6a276dd738f3\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\5919b6b0594e8981455e6a276dd738f3\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\618cab0c0ff8938953c424fe839c2797\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\618cab0c0ff8938953c424fe839c2797\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d771bdbf882572173ba0d17939075cc4\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d771bdbf882572173ba0d17939075cc4\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\3e562ae2c55f8026f96e6f4fdd3fcce4\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\3e562ae2c55f8026f96e6f4fdd3fcce4\transformed\jetified-lifecycle-runtime-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d865c568166468bef8ffed66551ad7ea\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d865c568166468bef8ffed66551ad7ea\transformed\jetified-lifecycle-livedata-core-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d739473f1766e5b092d68e909764a98c\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\d739473f1766e5b092d68e909764a98c\transformed\jetified-savedstate-ktx-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\0bc7ca5cd408d2daaa6d83b19469807d\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\0bc7ca5cd408d2daaa6d83b19469807d\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\ac14ecb5bc71ec84de7446538b979c0b\transformed\recyclerview-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\ac14ecb5bc71ec84de7446538b979c0b\transformed\recyclerview-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a3bea19cdbbbaf3de7e0f0fd45ebfa6e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a3bea19cdbbbaf3de7e0f0fd45ebfa6e\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\41f4671843c68abb959b2af9791b52bd\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\41f4671843c68abb959b2af9791b52bd\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\7633ad430911e49b2f07ff54ae13aa4a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\7633ad430911e49b2f07ff54ae13aa4a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\7e733ce698eb7e61a349aaea60e925f4\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\7e733ce698eb7e61a349aaea60e925f4\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14339ebd4ec332d4b0535f5630816add\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14339ebd4ec332d4b0535f5630816add\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\4e881b4cdac11a96288b85b877b1fd96\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\4e881b4cdac11a96288b85b877b1fd96\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1c45b7e021639ac3b38f4d4782cb24d7\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1c45b7e021639ac3b38f4d4782cb24d7\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\11389fe1cf02b94fe12c757866efd99d\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\11389fe1cf02b94fe12c757866efd99d\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\77ab45c6ea0285df69f84372ada684ef\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\77ab45c6ea0285df69f84372ada684ef\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a6b79afe79a5303a16518157ebc3363c\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a6b79afe79a5303a16518157ebc3363c\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.Othershe:CornerLabelView:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\90dfc1f7158841d63abf04a6f15ee542\transformed\jetified-CornerLabelView-1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.Othershe:CornerLabelView:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\90dfc1f7158841d63abf04a6f15ee542\transformed\jetified-CornerLabelView-1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:7:5-9:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\af597b04bb92670288b5a15137598d30\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\af597b04bb92670288b5a15137598d30\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1dfc84b34208bc9f2a5c72cb65c2ad6c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1dfc84b34208bc9f2a5c72cb65c2ad6c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\bcc37630c1e9240dd5d0e74df9dd7b3d\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\bcc37630c1e9240dd5d0e74df9dd7b3d\transformed\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\51d6dc9822c3de4c3e14fd05ff434ab3\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\51d6dc9822c3de4c3e14fd05ff434ab3\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\834678b44e1c40bf21741e7ed8d65a41\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\834678b44e1c40bf21741e7ed8d65a41\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\25be23899259a808c8771fe79ebb61f6\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\25be23899259a808c8771fe79ebb61f6\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\76033fcc4b6e5c4c25f4338626de10d0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\76033fcc4b6e5c4c25f4338626de10d0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\62ae28e8405355afe9456cb8f4345ad7\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\62ae28e8405355afe9456cb8f4345ad7\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\8a5286ae14a18c1d21397024daaf8db5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\8a5286ae14a18c1d21397024daaf8db5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\764cecf40937f18764f54f44c5bbbbaf\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\764cecf40937f18764f54f44c5bbbbaf\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\4e73a8eae1f12a5a86a31fa2fbf271f8\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\4e73a8eae1f12a5a86a31fa2fbf271f8\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\6a7c7b344258d2c8b37ffd5c66bfc388\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\6a7c7b344258d2c8b37ffd5c66bfc388\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\6bc4bf7b462c7c13cd8a6755680d380f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\6bc4bf7b462c7c13cd8a6755680d380f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\doanh\Desktop\vcam\VCamera-FIX\app\src\main\AndroidManifest.xml
+activity#com.hack.assist.AssistActivity
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:9-22:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:20:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:13-53
+	android:excludeFromRecents
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:13-46
+	android:noHistory
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:18:13-37
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:17:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:21:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:13-58
+service#com.hack.agent.HackJobService
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:9-28:57
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:13-54
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:27:13-69
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:13-57
+provider#com.hack.agent.HackFileProvider
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:9-37:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:36:13-54
+	android:grantUriPermissions
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:35:13-47
+	android:enabled
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:33:13-35
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:32:13-83
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:31:13-59
+receiver#com.hack.agent.HackReceiver
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:39:9-45:20
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:40:13-55
+intent-filter#action:name:android.trampo.intentSender
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:42:13-44:29
+action#android.trampo.intentSender
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:43:17-70
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:43:25-67
+service#com.hack.agent.HackNotificationService
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:47:9-55:19
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:51:13-54
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:50:13-87
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:48:13-66
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:52:13-54:29
+action#android.service.notification.NotificationListenerService
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:53:17-99
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:53:25-96
+activity#com.hack.agent.HackAppActivity$P
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:57:9-67:20
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:63:13-49
+	android:multiprocess
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:62:13-40
+	android:launchMode
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:61:13-42
+	android:hardwareAccelerated
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:60:13-47
+	android:supportsPictureInPicture
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:64:13-52
+	android:configChanges
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:59:13-186
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:66:13-55
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:65:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:58:13-60
+activity#com.hack.agent.HackAppActivity$PT
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:68:9-78:20
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:74:13-49
+	android:multiprocess
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:73:13-40
+	android:launchMode
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:72:13-42
+	android:hardwareAccelerated
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:71:13-47
+	android:supportsPictureInPicture
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:75:13-52
+	android:configChanges
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:70:13-186
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:77:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:76:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:69:13-61
+activity#com.hack.agent.HackAppActivity$L
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:79:9-89:20
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:85:13-50
+	android:multiprocess
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:84:13-40
+	android:launchMode
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:83:13-42
+	android:hardwareAccelerated
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:82:13-47
+	android:supportsPictureInPicture
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:86:13-52
+	android:configChanges
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:81:13-186
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:88:13-55
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:87:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:80:13-60
+activity#com.hack.agent.HackAppActivity$LT
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:90:9-100:20
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:96:13-50
+	android:multiprocess
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:95:13-40
+	android:launchMode
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:94:13-42
+	android:hardwareAccelerated
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:93:13-47
+	android:supportsPictureInPicture
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:97:13-52
+	android:configChanges
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:92:13-186
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:99:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:98:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:91:13-61
+activity#com.hack.agent.HackAppActivity$B
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:101:9-111:20
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:107:13-47
+	android:multiprocess
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:106:13-40
+	android:launchMode
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:105:13-42
+	android:hardwareAccelerated
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:104:13-47
+	android:supportsPictureInPicture
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:108:13-52
+	android:configChanges
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:103:13-186
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:110:13-55
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:109:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:102:13-60
+activity#com.hack.agent.HackAppActivity$BT
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:112:9-122:20
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:118:13-47
+	android:multiprocess
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:117:13-40
+	android:launchMode
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:116:13-42
+	android:hardwareAccelerated
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:115:13-47
+	android:supportsPictureInPicture
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:119:13-52
+	android:configChanges
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:114:13-186
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:121:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:120:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:113:13-61
+activity#com.hack.assist.AssistActivity$P0
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:123:9-129:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:127:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:126:13-40
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:125:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:129:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:128:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:124:13-61
+provider#com.hack.agent.HackAppProvider$P0
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:131:9-136:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:135:13-40
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:133:13-85
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:134:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:132:13-61
+activity#com.hack.assist.AssistActivity$P1
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:138:9-144:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:142:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:141:13-40
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:140:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:144:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:143:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:139:13-61
+provider#com.hack.agent.HackAppProvider$P1
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:146:9-151:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:150:13-40
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:148:13-85
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:149:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:147:13-61
+activity#com.hack.assist.AssistActivity$P2
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:153:9-159:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:157:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:156:13-40
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:155:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:159:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:158:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:154:13-61
+provider#com.hack.agent.HackAppProvider$P2
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:161:9-166:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:165:13-40
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:163:13-85
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:164:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:162:13-61
+activity#com.hack.assist.AssistActivity$P3
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:168:9-174:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:172:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:171:13-40
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:170:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:174:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:173:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:169:13-61
+provider#com.hack.agent.HackAppProvider$P3
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:176:9-181:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:180:13-40
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:178:13-85
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:179:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:177:13-61
+activity#com.hack.assist.AssistActivity$P4
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:183:9-189:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:187:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:186:13-40
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:185:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:189:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:188:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:184:13-61
+provider#com.hack.agent.HackAppProvider$P4
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:191:9-196:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:195:13-40
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:193:13-85
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:194:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:192:13-61
+activity#com.hack.assist.AssistActivity$P5
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:198:9-204:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:202:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:201:13-40
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:200:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:204:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:203:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:199:13-61
+provider#com.hack.agent.HackAppProvider$P5
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:206:9-211:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:210:13-40
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:208:13-85
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:209:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:207:13-61
+activity#com.hack.assist.AssistActivity$P6
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:213:9-219:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:217:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:216:13-40
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:215:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:219:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:218:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:214:13-61
+provider#com.hack.agent.HackAppProvider$P6
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:221:9-226:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:225:13-40
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:223:13-85
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:224:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:222:13-61
+activity#com.hack.assist.AssistActivity$P7
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:228:9-234:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:232:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:231:13-40
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:230:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:234:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:233:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:229:13-61
+provider#com.hack.agent.HackAppProvider$P7
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:236:9-241:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:240:13-40
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:238:13-85
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:239:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:237:13-61
+activity#com.hack.assist.AssistActivity$P8
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:243:9-249:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:247:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:246:13-40
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:245:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:249:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:248:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:244:13-61
+provider#com.hack.agent.HackAppProvider$P8
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:251:9-256:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:255:13-40
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:253:13-85
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:254:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:252:13-61
+activity#com.hack.assist.AssistActivity$P9
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:258:9-264:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:262:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:261:13-40
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:260:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:264:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:263:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:259:13-61
+provider#com.hack.agent.HackAppProvider$P9
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:266:9-271:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:270:13-40
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:268:13-85
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:269:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:267:13-61
+activity#com.hack.assist.AssistActivity$P10
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:273:9-279:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:277:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:276:13-41
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:275:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:279:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:278:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:274:13-62
+provider#com.hack.agent.HackAppProvider$P10
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:281:9-286:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:285:13-41
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:283:13-86
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:284:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:282:13-62
+activity#com.hack.assist.AssistActivity$P11
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:288:9-294:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:292:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:291:13-41
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:290:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:294:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:293:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:289:13-62
+provider#com.hack.agent.HackAppProvider$P11
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:296:9-301:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:300:13-41
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:298:13-86
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:299:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:297:13-62
+activity#com.hack.assist.AssistActivity$P12
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:303:9-309:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:307:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:306:13-41
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:305:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:309:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:308:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:304:13-62
+provider#com.hack.agent.HackAppProvider$P12
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:311:9-316:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:315:13-41
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:313:13-86
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:314:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:312:13-62
+activity#com.hack.assist.AssistActivity$P13
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:318:9-324:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:322:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:321:13-41
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:320:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:324:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:323:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:319:13-62
+provider#com.hack.agent.HackAppProvider$P13
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:326:9-331:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:330:13-41
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:328:13-86
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:329:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:327:13-62
+activity#com.hack.assist.AssistActivity$P14
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:333:9-339:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:337:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:336:13-41
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:335:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:339:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:338:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:334:13-62
+provider#com.hack.agent.HackAppProvider$P14
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:341:9-346:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:345:13-41
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:343:13-86
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:344:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:342:13-62
+activity#com.hack.assist.AssistActivity$P15
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:348:9-354:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:352:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:351:13-41
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:350:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:354:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:353:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:349:13-62
+provider#com.hack.agent.HackAppProvider$P15
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:356:9-361:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:360:13-41
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:358:13-86
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:359:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:357:13-62
+activity#com.hack.assist.AssistActivity$P16
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:363:9-369:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:367:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:366:13-41
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:365:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:369:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:368:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:364:13-62
+provider#com.hack.agent.HackAppProvider$P16
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:371:9-376:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:375:13-41
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:373:13-86
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:374:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:372:13-62
+activity#com.hack.assist.AssistActivity$P17
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:378:9-384:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:382:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:381:13-41
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:380:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:384:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:383:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:379:13-62
+provider#com.hack.agent.HackAppProvider$P17
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:386:9-391:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:390:13-41
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:388:13-86
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:389:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:387:13-62
+activity#com.hack.assist.AssistActivity$P18
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:393:9-399:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:397:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:396:13-41
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:395:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:399:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:398:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:394:13-62
+provider#com.hack.agent.HackAppProvider$P18
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:401:9-406:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:405:13-41
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:403:13-86
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:404:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:402:13-62
+activity#com.hack.assist.AssistActivity$P19
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:408:9-414:59
+	android:screenOrientation
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:412:13-47
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:411:13-41
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:410:13-36
+	android:theme
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:414:13-56
+	android:taskAffinity
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:413:13-55
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:409:13-62
+provider#com.hack.agent.HackAppProvider$P19
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:416:9-421:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:420:13-41
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:418:13-86
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:419:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:417:13-62
+provider#com.hack.server.core.HackServerProvider
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:422:9-428:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:427:13-54
+	android:enabled
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:425:13-35
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:424:13-91
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:426:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:423:13-67
+provider#com.hack.assist.AssistProvider
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:429:9-435:20
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:434:13-54
+	android:enabled
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:432:13-35
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:431:13-82
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:433:13-36
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:430:13-58
+provider#com.hack.server.core.TransactProvider
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:436:9-439:40
+	android:authorities
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:438:13-89
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:439:13-37
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:437:13-65
+service#com.hack.server.core.ForgroundService
+ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:441:9-444:57
+	android:process
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:444:13-54
+	android:exported
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:443:13-37
+	android:name
+		ADDED from [:opensdk] C:\Users\doanh\Desktop\vcam\VCamera-FIX\opensdk\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:442:13-65
+provider#com.lzf.easyfloat.EasyFloatInitializer
+ADDED from [com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:12:9-16:43
+	android:authorities
+		ADDED from [com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:14:13-72
+	android:multiprocess
+		ADDED from [com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:16:13-40
+	android:exported
+		ADDED from [com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [com.github.princekin-f:EasyFloat:2.0.4] C:\Users\doanh\.gradle\caches\8.11.1\transforms\cf007544f684883ba6854bbeb6eca29d\transformed\jetified-EasyFloat-2.0.4\AndroidManifest.xml:13:13-66
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\851cd85a285910953efb2e4a86c1d43b\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\4e73a8eae1f12a5a86a31fa2fbf271f8\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\4e73a8eae1f12a5a86a31fa2fbf271f8\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\54be2890ca3bff8fd5d6814d3e3b3e08\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#virtual.camera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#virtual.camera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\doanh\.gradle\caches\8.11.1\transforms\1b71401e17e51f4c6fcf2b6fbd5622c9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:11:5-14:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:13:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:14:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:12:9-34
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:17:9-57
+uses-feature#android.hardware.location.gps
+ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:20:9-53
+uses-feature#android.hardware.telephony
+ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:23:9-50
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.11] C:\Users\doanh\.gradle\caches\8.11.1\transforms\a2fd601210a58991666798af94d060e5\transformed\jetified-osmdroid-android-6.1.11\AndroidManifest.xml:26:9-45
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\doanh\.gradle\caches\8.11.1\transforms\14091bbeaa2818f5c758e8d511094552\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
